@@ -31,12 +31,11 @@ export default function Footer({ language, onNavigate }: FooterProps) {
           {/* Logo Identity segment (5 cols) */}
           <div className="md:col-span-5 space-y-6">
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => onNavigate('home')}>
-              <img 
-                src="https://posi.id/images/Logo%20POSI%20(Pusat%20Olimpiade%20Sains%20Indonesia).png" 
-                alt="POSI Logo" 
-                className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 hover:scale-105" 
-                referrerPolicy="no-referrer"
-              />
+              <img
+  src="/logo.png"
+  alt="POSI Logo"
+  className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+/>
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
