@@ -70,12 +70,11 @@ export default function Navbar({
             onClick={() => setCurrentTab('home')} 
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <img 
-              src="https://posi.id/images/Logo%20POSI%20(Pusat%20Olimpiade%20Sains%20Indonesia).png" 
-              alt="POSI Logo" 
-              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105" 
-              referrerPolicy="no-referrer"
-            />
+            <img
+  src="/logo.png"
+  alt="POSI Logo"
+  className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+/>
           </div>
 
           {/* Desktop Navigation */}
